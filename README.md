@@ -35,12 +35,16 @@
 - Add store artifact;
 - Commit and see results again;
 
+[azure-pipelines.yml result](https://github.com/ThiagoBarradas/azure-devops-pipelines-demo/blob/master/build-pipelines/1-build.yml)
+
 ## 3.2 - Create Unit Tests Step
 
 - Create tests step and commit; 
 - See tests results;
 - Add store artifact / publish code coverage and test results;
 - Commit and see results again;
+
+[azure-pipelines.yml result](https://github.com/ThiagoBarradas/azure-devops-pipelines-demo/blob/master/build-pipelines/2-build-test.yml)
 
 ## 3.3 - Create Quality Analysis Step
 
@@ -51,6 +55,8 @@
 - Create QA step and commit;
 - See results in Azure DevOps and SonarCloud;
 
+[azure-pipelines.yml result](https://github.com/ThiagoBarradas/azure-devops-pipelines-demo/blob/master/build-pipelines/3-build-test-qa.yml)
+
 ## 3.4 - Create Docker Publish Step
 
 - [Create account and create a project in Docker Hub](https://hub.docker.com)
@@ -59,6 +65,8 @@
 - [Replace Tokens in Dockerfile using other Extension ](https://marketplace.visualstudio.com/items?itemName=qetza.replacetokens)
 - Create PublishDocker step and commit;
 - See new images in Docker Hub and run locally to check if new image works fine;
+
+[azure-pipelines.yml result](https://github.com/ThiagoBarradas/azure-devops-pipelines-demo/blob/master/build-pipelines/4-build-test-qa-dockerpublish.yml)
 
 ## 4 - GitHub Status Check
 
@@ -73,6 +81,8 @@
 - Get badges for Quality Gate Status, Code Coverage
 - Go to Shields.io to generate other badges for SonarCloud;
 - Add in project README.md
+
+[README.md badges result](https://github.com/ThiagoBarradas/azure-devops-pipelines-demo/blob/master/badges/badges.md)
 
 ## 6 - Prepare Infrastructure
 
