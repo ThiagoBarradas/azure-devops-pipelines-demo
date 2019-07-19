@@ -113,5 +113,5 @@ jobs:
       Dockerfile: '$(System.DefaultWorkingDirectory)/Dockerfile'
       buildContext: '$(System.DefaultWorkingDirectory)'
       tags: |
-        latest
         $(Version)
+        latest
