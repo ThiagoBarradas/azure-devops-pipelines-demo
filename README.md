@@ -86,7 +86,8 @@
 
 ## 6 - Prepare Infrastructure
 
-:construction:
+- [Create a service using Azure App Service](https://portal.azure.com/#create/Microsoft.WebSite)
+- [Swap Web App in Azure](https://docs.microsoft.com/pt-br/azure/app-service/deploy-staging-slots#to-rollback-a-production-app-after-swap)
 
 ## 7 - Create Azure Release Pipeline 
 
