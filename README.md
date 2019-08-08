@@ -96,10 +96,12 @@
 ## 7.1 - Create Deploy Step
 
 - Create a single container/environment in Azure Web App
-- [Simulate Deploy](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/AzureAppServiceManageV0)
+- Simulate Deploy
 - Create Staging Environment
 - Deploy to staging
 - Then Swap Slots
+- [Deploy Link](https://aka.ms/azurewebapponcontainerdeployreadme)
+- [Swap Link](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/AzureAppServiceManageV0)
 
 ## 4.1 - Create Integration Test Step
 
