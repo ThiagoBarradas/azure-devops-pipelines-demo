@@ -103,12 +103,9 @@
 - [Deploy Link](https://aka.ms/azurewebapponcontainerdeployreadme)
 - [Swap Link](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/AzureAppServiceManageV0)
 
-## 4.1 - Create Integration Test Step
+## 7.2 - Create Integration Test Step
 
 - Create Runscope Tests
 - Install [Runscope Extension](https://marketplace.visualstudio.com/items?itemName=ThiagoBarradas.runscopetest)
 - Setup Runscope Task
 
-## 4.1 - Create Rollback Step
-
-- If Runscope Test failed, swap again.
