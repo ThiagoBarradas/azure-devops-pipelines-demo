@@ -8,7 +8,7 @@
 - Docker (Package / Containerization app)
 - Docker Hub (Registry for docker images)
 - Runscope (Integration tests)
-- ???? (Infra to deploy)
+- Azure (Infra to deploy)
 
 ## 1 - Appliciation development
 
@@ -94,8 +94,19 @@
 - [Predefined variables for Release Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml)
 
 ## 7.1 - Create Deploy Step
+
+- Create a single container/environment in Azure Web App
+- Simulate Deploy
+- Create Staging Environment
+- Deploy to staging
+- Then Swap Slots
+
 ## 4.1 - Create Integration Test Step
+
+- Create Runscope Tests
+- Install [Runscope Extension](https://marketplace.visualstudio.com/items?itemName=ThiagoBarradas.runscopetest)
+- Setup Runscope Task
+
 ## 4.1 - Create Rollback Step
 
-// create infra with rancher
-// runscope
+- If Runscope Test failed, swap again.
